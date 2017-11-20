@@ -1,28 +1,60 @@
 <!DOCTYPE html>
+
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>the holy grail</title>
-    <link rel="stylesheet" href="./styles.css">
-    <script src="./main.js"></script>
-  </head>
-  <body>
-    <div class="app">
-      <div class="header">
-        Total: 0
-      </div>
-      <div class="body">
-        <div class="left"></div>
-        <div class="center">
-          <div class="button">
-            +1
-          </div>
+ <head>
+   <meta charset="utf-8">
+   <title>the holy grail</title>
+   <link rel="stylesheet" href="./styles.css">
+
+   <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+   <script src="./main.js"></script>
+
+ </head>
+ <body>
+   <div class="app">
+     <div class="header">
+         <button id = "reset" > Reset </button>
+         Total :  <span id = "total"> 0 </span>  
+         <div class="save">
+            <button  id = "save_button" > Save </button> <!-- save button -->
+           </div>  
+           <div class="load">
+              <button  id = "load_button" > Load </button> <!-- load button -->
+             </div>               
+     </div>
+
+ <div class="body">
+      <div class="left">
+      <label  class = "label"> Cost is 10 points</label>
+      <div class="button" >
+      <button  id = "multi_button"> *1.2 </button>
         </div>
-        <div class="right"></div>
-      </div>
-      <div class="footer">
-        Made w/ &lt;3 @ FastTrack'D
-      </div>
-    </div>
-  </body>
-</html>
+            </div>
+
+        <div class="center">
+        <div class="button">          
+        <button id = "add_button" > +1 </button>
+          </div>
+             </div>
+      
+
+  <div class="right">
+        <label class = "label" id = "autoClickerCount"> AutoClickerCount: 0 </label>
+        <label  class = "label"> Cost is 100 points </label>
+        <div class="button">
+          <button  id = "auto_button" > +1 Auto </button>
+           </div>       
+       </div>
+
+     </div>
+     <div class="footer">
+       <p> Made w/ &lt;3 @ FastTrack'D </p>
+     </div>
+   </div>
+ </body>
+</html> 
+
+
+
+
+
