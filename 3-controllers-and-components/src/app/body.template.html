@@ -3,3 +3,33 @@
     ng-click="body.click()">
   <h2>+{{body.amount}}</h2>
 </button>
+
+<button
+class="ft-btn col-md-12"
+ng-click="body.clickMult()">
+<h2>*1.2 (Cost is 10) Multiplier {{body.multiplier}}</h2>
+</button>
+
+<button
+class="ft-btn col-md-12"
+ng-click="body.autoClick()">
+<h2>(Cost is 100) +{{body.amount}} Number of Clickers {{body.clickers}}</h2>
+</button>
+
+<button
+class="ft-btn col-md-12"
+ng-click="body.resetGame()">
+<h2>Reset</h2>
+</button>
+
+<button
+class="ft-btn col-md-12"
+ng-click="body.saveGame()">
+<h2>Save</h2>
+</button>
+
+<button
+class="ft-btn col-md-12"
+ng-click="body.loadGame()">
+<h2>Load</h2>
+</button>

@@ -1,0 +1,19 @@
+.center-panel {
+    background-color: rgb(73, 172, 73);
+    height: 86vh;
+    width : 960px;
+    justify-content: center;
+    }
+    
+
+/*.button {   
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;   
+    color: black;     
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    font-size: medium;
+     }*/
